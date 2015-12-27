@@ -5,9 +5,9 @@ Veewee::Session.declare({
   :disk_format => 'VDI',
   :hostiocache => 'off',
   :os_type_id => 'RedHat6_64',
-  :iso_file => "CentOS-7-x86_64-NetInstall-1503.iso",
-  :iso_src => "http://mirror.netcologne.de/centos/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1503.iso",
-  :iso_md5 => "111379a06402e1e445c6aeee9401d031",
+  :iso_file => "CentOS-7-x86_64-NetInstall-1511.iso",
+  :iso_src => "http://mirror.netcologne.de/centos/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1511.iso",
+  :iso_md5 => "99d305fa40ec9e28ef8450c3bcc45f85",
   :iso_download_timeout => 1000,
   :boot_wait => "10",
   :boot_cmd_sequence => [

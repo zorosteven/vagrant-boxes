@@ -5,9 +5,9 @@ Veewee::Session.declare({
   :disk_format => 'VDI',
   :hostiocache => 'off',
   :os_type_id => 'Ubuntu_64',
-  :iso_file => "ubuntu-14.04-server-amd64.iso",
-  :iso_src => "http://releases.ubuntu.com/14.04/ubuntu-14.04-server-amd64.iso",
-  :iso_md5 => "01545fa976c8367b4f0d59169ac4866c",
+  :iso_file => "ubuntu-14.04.3-server-amd64.iso",
+  :iso_src => "http://releases.ubuntu.com/14.04/ubuntu-14.04.3-server-amd64.iso",
+  :iso_md5 => "9e5fecc94b3925bededed0fdca1bd417",
   :iso_download_timeout => "1000",
   :boot_wait => "4",
   :boot_cmd_sequence => [
@@ -32,6 +32,7 @@ Veewee::Session.declare({
   :shutdown_cmd => "shutdown -P now",
   :postinstall_files => [
    "build_time.sh",
+   "sources.sh",
    "apt.sh",
    "sudo.sh",
    "vagrant.sh",
@@ -39,8 +40,9 @@ Veewee::Session.declare({
    "chef.sh",
    "puppet.sh",
    "vbox.sh",
-   "docker.sh",
    # "parallels.sh",
+   "docker.sh",
+   "rvm.sh",
    "cleanup.sh"
   ],
   :postinstall_timeout => "10000"
