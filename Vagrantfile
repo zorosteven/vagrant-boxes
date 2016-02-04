@@ -37,6 +37,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         v.vm.box = "zs/centos"
         v.vm.box_url = ["file://centos-7.0-x86_64.box"]
         v.vm.boot_timeout = 120
+        v.vm.hostname = "docker-centos.uz.com"
 
         v.ssh.username = "vagrant"
         v.ssh.password = "vagrant"
