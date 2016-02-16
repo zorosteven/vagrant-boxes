@@ -35,11 +35,12 @@ Veewee::Session.declare({
    "apt.sh",
    "sudo.sh",
    "vagrant.sh",
-   "ruby.sh",
-   "chef.sh",
-   "puppet.sh",
    "vbox.sh",
-   # "parallels.sh",
+   "ruby.sh",
+   #"chef.sh",
+   "puppet.sh",
+   "docker.sh",
+   #"parallels.sh",
    "cleanup.sh"
   ],
   :postinstall_timeout => "10000"

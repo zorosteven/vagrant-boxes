@@ -30,6 +30,7 @@ Veewee::Session.declare({
     "vagrant.sh",
     "docker.sh",
     "virtualbox.sh",
+    "docker.sh",
     "cleanup.sh",
     "zerodisk.sh"
   ],
